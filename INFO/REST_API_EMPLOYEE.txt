@@ -1,0 +1,45 @@
+
+Get:
+http://localhost:8080/api/v1/employees
+{
+	"firstName": "Tom",
+	"surname": "Cat",
+	"position": "Manager",
+	"phone": "555 555-5555"
+}
+
+{
+	"firstName": "Judi",
+	"surname": "Marvel",
+	"position": "Clerk",
+	"phone": "111 123-4567"
+}
+
+{
+    "firstName": "Mik",
+    "surname": "Jackson",
+    "position": "Clerk",
+    "phone": "101 132 543-1564"
+}
+
+{
+	"firstName": "Bob",
+	"surname": "Marley",
+	"position": "Singer",
+	"phone": "101 888-5555"
+}
+
+Put:
+http://localhost:8080/api/v1/employees/1
+{
+    "position": "Top manager"
+}
+http://localhost:8080/api/v1/employees/2
+{
+    "surname": "Cat"
+    "position": "Manager"
+}
+
+Get: http://localhost:8080/api/v1/employees/first-name/Mik
+
+Delete: http://localhost:8080/api/v1/employees/3
