@@ -1,0 +1,1337 @@
+25-May-2024 16:28:15.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 16:28:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 16:28:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 16:28:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 16:28:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 16:28:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 16:28:15.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 16:28:15.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 16:28:15.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 16:28:15.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 16:28:15.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 16:28:15.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=2866:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 16:28:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 16:28:15.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 16:28:15.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 16:28:15.512 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 16:28:15.517 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 16:28:15.744 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:28:15.761 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [412] milliseconds
+25-May-2024 16:28:15.800 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 16:28:15.801 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 16:28:15.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 16:28:19.872 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 16:28:21.734 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 16:28:22.064 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 16:28:22.263 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 16:28:24.156 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:394)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:274)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:102)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4451)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4887)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+25-May-2024 16:28:24.231 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 16:28:27.791 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 16:28:29.030 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 16:28:29.046 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 16:28:29.088 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:706)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:537)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:169)
+		at jakarta.servlet.GenericServlet.init(GenericServlet.java:143)
+		at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:121)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:944)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:808)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4628)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+25-May-2024 16:28:29.091 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 16:28:29.149 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 16:28:29.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 674] ms
+25-May-2024 16:28:29.495 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:28:29.507 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13744] milliseconds
+25-May-2024 16:29:32.232 INFO [http-nio-8080-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 16:29:32.247 INFO [http-nio-8080-exec-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 16:29:32.282 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:706)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:537)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:169)
+		at jakarta.servlet.GenericServlet.init(GenericServlet.java:143)
+		at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:121)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:944)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:662)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:115)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 16:29:32.288 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 16:29:32.359 INFO [http-nio-8080-exec-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 16:38:04.946 INFO [http-nio-8080-exec-4] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 16:38:04.963 INFO [http-nio-8080-exec-4] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 16:38:05.001 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:706)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:537)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:169)
+		at jakarta.servlet.GenericServlet.init(GenericServlet.java:143)
+		at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:121)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:944)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:662)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:115)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 16:38:05.005 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 16:38:05.079 INFO [http-nio-8080-exec-4] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 16:42:26.210 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:42:26.212 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 16:42:26.220 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 16:42:26.220 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 16:42:26.224 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:42:26.240 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:49:17.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 16:49:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 16:49:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 16:49:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 16:49:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 16:49:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 16:49:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 16:49:17.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 16:49:17.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 16:49:17.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 16:49:17.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 16:49:17.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=8738:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 16:49:17.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 16:49:17.229 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 16:49:17.234 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 16:49:17.444 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:49:17.458 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [376] milliseconds
+25-May-2024 16:49:17.498 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 16:49:17.498 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 16:49:17.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 16:49:21.546 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 16:49:23.445 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 16:49:23.757 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 16:49:23.914 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 16:49:25.749 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:394)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:274)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:102)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4451)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4887)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+25-May-2024 16:49:25.827 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 16:49:29.407 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 16:49:30.627 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 16:49:30.642 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 16:49:30.682 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:706)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:537)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:169)
+		at jakarta.servlet.GenericServlet.init(GenericServlet.java:143)
+		at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:121)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:944)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:808)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4628)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+25-May-2024 16:49:30.684 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 16:49:30.739 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 16:49:31.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 567] ms
+25-May-2024 16:49:31.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:49:31.097 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13636] milliseconds
+25-May-2024 16:49:43.215 INFO [http-nio-8080-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 16:49:43.229 INFO [http-nio-8080-exec-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 16:49:43.265 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:706)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:537)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:169)
+		at jakarta.servlet.GenericServlet.init(GenericServlet.java:143)
+		at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:121)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:944)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:662)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:115)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 16:49:43.270 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 16:49:43.340 INFO [http-nio-8080-exec-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 16:51:03.642 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:51:03.644 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 16:51:03.651 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 16:51:03.651 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 16:51:03.655 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 16:51:03.676 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:11:59.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:11:59.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:11:59.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 17:11:59.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 17:11:59.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 17:11:59.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 17:11:59.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 17:11:59.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:11:59.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:11:59.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 17:11:59.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 17:11:59.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 17:11:59.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=7011:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 17:11:59.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 17:11:59.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 17:11:59.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 17:11:59.890 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 17:11:59.895 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 17:12:00.126 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:12:00.142 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [400] milliseconds
+25-May-2024 17:12:00.183 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 17:12:00.184 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 17:12:00.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 17:12:04.197 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 17:12:06.067 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:12:06.385 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 17:12:06.542 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:12:08.388 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:394)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:274)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:102)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4451)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4887)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+25-May-2024 17:12:08.468 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:12:12.110 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:12:13.332 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:12:13.347 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:12:13.387 WARN [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+		at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+		at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+		at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+		at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1815)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1764)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:596)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1168)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:706)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:583)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:537)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:169)
+		at jakarta.servlet.GenericServlet.init(GenericServlet.java:143)
+		at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:121)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:944)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:808)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4628)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+25-May-2024 17:12:13.391 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:12:13.447 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:12:13.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 587] ms
+25-May-2024 17:12:13.793 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:12:13.804 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13659] milliseconds
+25-May-2024 17:15:58.614 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:15:58.616 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 17:15:58.623 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 17:15:58.623 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 17:15:58.628 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:15:58.641 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:16:12.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 17:16:12.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 17:16:12.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 17:16:12.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 17:16:12.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 17:16:12.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 17:16:12.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 17:16:12.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 17:16:12.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 17:16:12.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:16:12.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:16:12.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 17:16:12.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 17:16:12.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=8199:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 17:16:12.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 17:16:12.128 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 17:16:12.133 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 17:16:12.371 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:16:12.385 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [430] milliseconds
+25-May-2024 17:16:12.428 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 17:16:12.429 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 17:16:12.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 17:16:16.523 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 17:16:18.367 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:16:18.677 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 17:16:18.832 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:16:20.787 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:16:24.362 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:16:25.594 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:16:25.609 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:16:25.650 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:16:25.705 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:16:26.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 586] ms
+25-May-2024 17:16:26.036 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:16:26.056 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13669] milliseconds
+25-May-2024 17:16:49.091 INFO [http-nio-8080-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:16:49.107 INFO [http-nio-8080-exec-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:16:49.140 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:16:49.215 INFO [http-nio-8080-exec-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:21:14.564 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:21:14.566 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 17:21:14.574 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 17:21:14.574 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 17:21:14.578 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:21:14.600 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:22:56.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 17:22:56.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 17:22:56.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 17:22:56.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 17:22:56.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 17:22:56.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 17:22:56.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 17:22:56.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 17:22:56.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 17:22:56.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:22:56.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:22:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 17:22:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 17:22:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 17:22:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 17:22:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 17:22:56.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:22:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:22:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 17:22:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 17:22:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 17:22:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=10141:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 17:22:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 17:22:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 17:22:56.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 17:22:56.377 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 17:22:56.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 17:22:56.618 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:22:56.633 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [429] milliseconds
+25-May-2024 17:22:56.674 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 17:22:56.674 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 17:22:56.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 17:23:00.788 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 17:23:02.615 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:23:02.926 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 17:23:03.082 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:23:05.050 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:23:08.613 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:23:09.829 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:23:09.846 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:23:09.883 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:23:09.940 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:23:10.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 592] ms
+25-May-2024 17:23:10.286 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:23:10.299 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13664] milliseconds
+25-May-2024 17:23:20.558 INFO [http-nio-8080-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:23:20.574 INFO [http-nio-8080-exec-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:23:20.607 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:23:20.676 INFO [http-nio-8080-exec-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:24:51.226 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:24:51.228 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 17:24:51.235 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 17:24:51.236 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 17:24:51.240 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:24:51.263 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:25:08.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 17:25:08.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:25:08.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:25:08.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 17:25:08.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=10789:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 17:25:08.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 17:25:08.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 17:25:08.463 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 17:25:08.469 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 17:25:08.720 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:25:08.738 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [462] milliseconds
+25-May-2024 17:25:08.778 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 17:25:08.778 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 17:25:08.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 17:25:12.798 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 17:25:14.621 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:25:14.926 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 17:25:15.082 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:25:17.056 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:25:20.625 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:25:21.845 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:25:21.860 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:25:21.899 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:25:21.956 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:25:22.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 505] ms
+25-May-2024 17:25:22.305 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:25:22.315 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13576] milliseconds
+25-May-2024 17:25:27.528 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:25:27.545 INFO [http-nio-8080-exec-1] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:25:27.578 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:25:27.655 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:27:26.474 INFO [http-nio-8080-exec-4] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:27:26.491 INFO [http-nio-8080-exec-4] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:27:26.526 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:27:26.605 INFO [http-nio-8080-exec-4] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:29:04.447 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:29:04.450 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 17:29:04.458 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 17:29:04.458 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 17:29:04.462 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:29:04.486 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:29:48.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 17:29:48.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 17:29:48.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 17:29:48.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 17:29:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 17:29:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 17:29:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 17:29:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 17:29:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 17:29:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:29:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:29:48.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 17:29:48.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 17:29:48.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 17:29:48.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 17:29:48.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 17:29:48.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:29:48.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:29:48.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 17:29:48.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 17:29:48.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 17:29:48.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=12156:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 17:29:48.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 17:29:48.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 17:29:48.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 17:29:48.290 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 17:29:48.297 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 17:29:48.561 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:29:48.577 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [472] milliseconds
+25-May-2024 17:29:48.617 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 17:29:48.617 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 17:29:48.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 17:29:52.717 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 17:29:54.624 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:29:54.934 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 17:29:55.095 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:29:57.179 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:30:00.946 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:30:02.218 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:30:02.233 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:30:02.272 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:30:02.329 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:30:02.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [14 031] ms
+25-May-2024 17:30:02.670 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:30:02.680 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14103] milliseconds
+25-May-2024 17:30:20.177 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:30:20.193 INFO [http-nio-8080-exec-1] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:30:20.226 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:30:20.299 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:32:58.143 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:32:58.145 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 17:32:58.153 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 17:32:58.154 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 17:32:58.158 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:32:58.167 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:39:51.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 17:39:51.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 17:39:51.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 17:39:51.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 17:39:51.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 17:39:51.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 17:39:51.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 17:39:51.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 17:39:51.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 17:39:51.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:39:51.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=14958:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 17:39:51.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 17:39:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 17:39:51.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 17:39:51.457 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 17:39:51.462 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 17:39:51.679 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:39:51.694 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [381] milliseconds
+25-May-2024 17:39:51.738 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 17:39:51.738 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 17:39:51.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 17:39:55.786 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 17:39:57.682 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:39:58.003 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 17:39:58.169 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:40:00.136 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:40:03.715 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:40:04.945 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:40:04.964 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:40:05.005 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:40:05.059 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:40:05.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 643] ms
+25-May-2024 17:40:05.404 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:40:05.416 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13721] milliseconds
+25-May-2024 17:40:21.801 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:40:21.803 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 17:40:21.809 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 17:40:21.810 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 17:40:21.814 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:40:21.839 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:40:46.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 17:40:46.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 17:40:46.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 17:40:46.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 17:40:46.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 17:40:46.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 17:40:46.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 17:40:46.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 17:40:46.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 17:40:46.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:40:46.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:40:46.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 17:40:46.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 17:40:46.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 17:40:46.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=1275:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 17:40:46.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 17:40:46.830 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 17:40:46.834 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 17:40:47.052 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:40:47.067 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [383] milliseconds
+25-May-2024 17:40:47.109 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 17:40:47.109 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 17:40:47.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 17:40:51.110 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 17:40:52.943 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:40:53.245 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 17:40:53.398 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:40:55.358 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:40:58.977 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:41:00.203 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:41:00.219 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:41:00.260 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:41:00.315 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 17:41:00.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 542] ms
+25-May-2024 17:41:00.672 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 17:41:00.682 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13614] milliseconds
+25-May-2024 17:41:03.105 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 17:41:03.112 INFO [http-nio-8080-exec-1] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 17:41:03.132 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 17:41:03.209 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 18:04:22.550 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:04:22.552 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 18:04:22.559 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 18:04:22.560 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 18:04:22.565 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:04:22.586 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:18:51.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 18:18:51.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 18:18:51.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 18:18:51.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 18:18:51.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 18:18:51.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 18:18:51.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 18:18:51.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 18:18:51.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 18:18:51.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 18:18:51.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 18:18:51.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 18:18:51.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 18:18:51.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 18:18:51.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 18:18:51.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 18:18:51.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 18:18:51.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 18:18:51.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 18:18:51.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 18:18:51.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 18:18:51.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=11668:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 18:18:51.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 18:18:51.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 18:18:51.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 18:18:51.566 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 18:18:51.571 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 18:18:51.799 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:18:51.818 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [398] milliseconds
+25-May-2024 18:18:51.858 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 18:18:51.859 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 18:18:51.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 18:18:55.852 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 18:18:57.748 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 18:18:58.054 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 18:18:58.210 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 18:19:00.189 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 18:19:03.879 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 18:19:05.097 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 18:19:05.112 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 18:19:05.152 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 18:19:05.207 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 18:19:05.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [14 005] ms
+25-May-2024 18:19:05.883 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:19:05.894 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14075] milliseconds
+25-May-2024 18:46:10.610 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:46:10.612 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 18:46:10.620 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 18:46:10.621 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 18:46:10.625 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:46:10.637 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:49:48.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.23
+25-May-2024 18:49:48.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Apr 16 2024 12:17:18 UTC
+25-May-2024 18:49:48.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.23.0
+25-May-2024 18:49:48.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-May-2024 18:49:48.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+25-May-2024 18:49:48.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+25-May-2024 18:49:48.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\jenyu\.jdks\openjdk-21.0.2
+25-May-2024 18:49:48.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21.0.2+13-58
+25-May-2024 18:49:48.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+25-May-2024 18:49:48.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 18:49:48.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\programs\jobs\it\apache-tomcat-10.1.23
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\temp
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\logging.properties
+25-May-2024 18:49:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2024 18:49:48.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\lib\idea_rt.jar=5455:F:\programs\jobs\it\IntelliJ IDEA 2023.1.2\bin
+25-May-2024 18:49:48.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+25-May-2024 18:49:48.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+25-May-2024 18:49:48.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+25-May-2024 18:49:48.506 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+25-May-2024 18:49:48.511 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+25-May-2024 18:49:48.722 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:49:48.736 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [379] milliseconds
+25-May-2024 18:49:48.771 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-May-2024 18:49:48.771 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+25-May-2024 18:49:48.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml]
+25-May-2024 18:49:52.713 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2024 18:49:54.549 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 18:49:54.850 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-May-2024 18:49:55.005 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 18:49:56.963 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 18:50:00.521 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 18:50:01.719 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-May-2024 18:50:01.735 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-May-2024 18:50:01.775 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-May-2024 18:50:01.830 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-May-2024 18:50:02.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [F:\training\it\Hillel\java\java_pro\projects\Spring-Data-Employees\Catalina\conf\Catalina\localhost\ROOT.xml] has finished in [13 734] ms
+25-May-2024 18:50:02.526 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:50:02.537 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13799] milliseconds
+25-May-2024 18:54:46.192 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:54:46.193 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-May-2024 18:54:46.203 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2024 18:54:46.204 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+25-May-2024 18:54:46.207 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-May-2024 18:54:46.227 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

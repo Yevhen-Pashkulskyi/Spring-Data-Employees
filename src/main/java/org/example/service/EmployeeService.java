@@ -12,18 +12,18 @@ import java.util.Collections;
 @Service
 public class EmployeeService {
     @Autowired
-    EmployeeRepository employeeRepository;
+    EmployeeRepository repository;
 
     public Optional<Employee> save(Employee employee) {
-        return Optional.of(employeeRepository.save(employee));
+        return Optional.of(repository.save(employee));
     }
 
     public Optional<List<Employee>> getAll() {
-        return Optional.of(employeeRepository.findAll());
+        return Optional.of(repository.findAll());
     }
 
     public Employee getById(Long id) {
-        return employeeRepository.findById(id).orElse(null);
+        return repository.findById(id).orElse(null);
     }
 
     public Employee update(Long id, Employee employee) {
@@ -31,38 +31,38 @@ public class EmployeeService {
         String surname = employee.getSurname();
         String position = employee.getPosition();
         String phone = employee.getPhone();
-        Optional<Employee> employeeOptional = employeeRepository.findById(id);
-        if (employeeOptional.isPresent()) {
-            Employee employeeToUpdate = employeeOptional.get();
+        Optional<Employee> optional = repository.findById(id);
+        if (optional.isPresent()) {
+            Employee empUpdate = optional.get();
             if (firstName != null) {
-                employeeToUpdate.setFirstName(firstName);
+                empUpdate.setFirstName(firstName);
             }
             if (surname != null) {
-                employeeToUpdate.setSurname(surname);
+                empUpdate.setSurname(surname);
             }
             if (position != null) {
-                employeeToUpdate.setPosition(position);
+                empUpdate.setPosition(position);
             }
             if (phone != null) {
-                employeeToUpdate.setPhone(phone);
-                employeeRepository.save(employeeToUpdate);
+                empUpdate.setPhone(phone);
             }
+            repository.save(empUpdate);
         }
-        return employeeRepository.findById(id).orElse(null);
+        return repository.findById(id).orElse(null);
     }
 
     public boolean delete(Long id) {
-        if (employeeRepository.existsById(id)) {
-            employeeRepository.deleteById(id);
+        if (repository.existsById(id)) {
+            repository.deleteById(id);
             return true;
         } else {
             return false;
         }
     }
-    public List<Employee> findByFirstName(String firstName) {
-        return employeeRepository.findByFirstName(firstName).orElse(Collections.emptyList());
+    public List<Employee> getByFirstName(String firstName) {
+        return repository.findByFirstName(firstName).orElse(Collections.emptyList());
     }
-    public List<Employee> findBySurname(String surname) {
-        return employeeRepository.findBySurname(surname).orElse(Collections.emptyList());
+    public List<Employee> getBySurname(String surname) {
+        return repository.findBySurname(surname).orElse(Collections.emptyList());
     }
 }

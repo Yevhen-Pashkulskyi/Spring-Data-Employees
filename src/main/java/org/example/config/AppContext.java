@@ -40,17 +40,16 @@ public class AppContext {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(Objects.requireNonNull(env.getProperty("jdbc.driverClassName")));
-        dataSource.setUrl(Objects.requireNonNull(env.getProperty("jdbc.url")));
-        dataSource.setUsername(Objects.requireNonNull(env.getProperty("jdbc.username")));
-        dataSource.setPassword(Objects.requireNonNull(env.getProperty("jdbc.password")));
+        dataSource.setUrl(env.getProperty("jdbc.url"));
+        dataSource.setUsername(env.getProperty("jdbc.username"));
+        dataSource.setPassword(env.getProperty("jdbc.password"));
         return dataSource;
     }
 
-    @Bean
     public Properties hibernateProperties() {
         Properties properties = new Properties();
-        properties.put("hibernate.dialect", Objects.requireNonNull(env.getProperty("hibernate.dialect")));
-        properties.put("hibernate.show_sql", Objects.requireNonNull(env.getProperty("hibernate.show_sql")));
+        properties.setProperty("hibernate.dialect", env.getProperty("hibernate.dialect"));
+        properties.setProperty("hibernate.show_sql", env.getProperty("hibernate.show_sql"));
         return properties;
     }
 
