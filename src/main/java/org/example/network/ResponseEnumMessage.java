@@ -1,4 +1,4 @@
-package org.example.service;
+package org.example.network;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
